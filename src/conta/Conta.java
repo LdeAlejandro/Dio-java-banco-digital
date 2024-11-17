@@ -17,6 +17,7 @@ public abstract class Conta implements IConta {
 		this.numero = SEQUENCIAL++;
 	}
 	
+	//sacara dinheiro da conta que solicite o saque
 	@Override
 	public void sacar(double valor) {
 		
